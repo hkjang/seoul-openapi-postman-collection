@@ -1,0 +1,5161 @@
+{
+	"info": {
+		"_postman_id": "b5ed51fe-0f3d-40c9-86aa-53fd546be8eb",
+		"name": "seoul openapi collection 6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "서울시 행정동별 가스 사용량 2006년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoDongGasUsage2006/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoDongGasUsage2006",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 행정동별 가스 사용량 2007년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoDongGasUsage2007/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoDongGasUsage2007",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 행정동별 가스 사용량 2008년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoDongGasUsage2008/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoDongGasUsage2008",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 행정동별 지역난방 사용량 2005년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoDongDistrictHeatingUsage2005/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoDongDistrictHeatingUsage2005",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 행정동별 지역난방 사용량 2006년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoDongDistrictHeatingUsage2006/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoDongDistrictHeatingUsage2006",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 행정동별 지역난방 사용량 2007년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoDongDistrictHeatingUsage2007/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoDongDistrictHeatingUsage2007",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 행정동별 지역난방 사용량 2008년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoDongDistrictHeatingUsage2008/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoDongDistrictHeatingUsage2008",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 자치구별 TOE 환산량 2005년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoRegionConvertLiang2005/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoRegionConvertLiang2005",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 자치구별 TOE 환산량 2006년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoRegionConvertLiang2006/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoRegionConvertLiang2006",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 자치구별 TOE 환산량 2007년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoRegionConvertLiang2007/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoRegionConvertLiang2007",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 자치구별 TOE 환산량 2008년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoRegionConvertLiang2008/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoRegionConvertLiang2008",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균기온 (1998~2009년 평균) 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoAvrgTempYear/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoAvrgTempYear",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최고기온 (1998~2009년 평균) 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMaxAvrgTempYear2009/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMaxAvrgTempYear2009",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최저기온 (1998~2009년 평균) 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMinAvrgTempYear2009/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMinAvrgTempYear2009",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균기온 2005년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoAvrgTempYear2005/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoAvrgTempYear2005",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균기온 2006년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoAvrgTempYear2006/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoAvrgTempYear2006",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균기온 2007년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoAvrgTempYear2007/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoAvrgTempYear2007",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균기온 2008년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoAvrgTempYear2008/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoAvrgTempYear2008",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최고기온 2005년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMaxAvrgTempYear2005/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMaxAvrgTempYear2005",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최고기온 2006년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMaxAvrgTempYear2006/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMaxAvrgTempYear2006",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최고기온 2007년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMaxAvrgTempYear2007/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMaxAvrgTempYear2007",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최고기온 2008년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMaxAvrgTempYear2008/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMaxAvrgTempYear2008",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최저기온 2005년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMinAvrgTempYear2005/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMinAvrgTempYear2005",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최저기온 2006년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMinAvrgTempYear2006/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMinAvrgTempYear2006",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최저기온 2007년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMinAvrgTempYear2007/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMinAvrgTempYear2007",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연평균최저기온 2008년 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoMinAvrgTempYear2008/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoMinAvrgTempYear2008",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 봄철 평균기온 위치정보 (1998~2009년) (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoSpringAvrgTemp/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoSpringAvrgTemp",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 여름철 평균기온 위치정보 (1998~2009년) (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoSummerAvrgTemp/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoSummerAvrgTemp",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 가을철 평균기온 위치정보 (1998~2009년 평균) (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoFallAvrgTemp/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoFallAvrgTemp",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 겨울철 평균기온 위치정보 (1998~2009년 평균) (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoWinterAvrgTemp/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoWinterAvrgTemp",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 연강수량 (1998~2009년) 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoAnnualPrecipitation/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoAnnualPrecipitation",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 에코스쿨조성사업 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoSchoolParkService/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoSchoolParkService",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 옥상녹화사업 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoRoofBusiness/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoRoofBusiness",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 공중화장실 위치정보 (좌표계: ITRF2000)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/GeoInfoPublicToilet/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GeoInfoPublicToilet",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 주요 공원현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.seoul.go.kr:8088/{{api_key}}/json/SearchParkInfoService/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"SearchParkInfoService",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 국민기초생활보장 수급자 (구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi1/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi1",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 국민기초생활보장 수급자 (동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10113/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10113",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 장애인 편의시설 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi5/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi5",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 장애인 생활시설 (입퇴소현황) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 보건소 인력현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi27/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi27",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 의약품 제조 및 판매업 현황 (동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10153/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10153",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 법정 감염병 발생현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi37/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi37",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 독거노인 현황 (성별/동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10178/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10178",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 독거노인 현황 (연령별/구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10177/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10177",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 독거노인 현황 (연령별/동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10176/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10176",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 고령자현황 (동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10020/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10020",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 고용지표 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi59/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi59",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 민원처리 온라인 공개 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi89/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi89",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 경제활동별 지역내총생산 (당해년가격) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi101/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi101",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 외국인 투자현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi95/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi95",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 소비자물가지수(지출목적별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi135_1/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi135_1",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 신규벤처 투자액 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi100/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi100",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 사업체현황 (산업대분류별 총괄) (2006년 이후) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10254/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10254",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 사업체현황 (산업대분류별/동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi104/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi104",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 금융기관 (구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi108/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi108",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 도시가스 이용현황 (용도별/구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi125/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi125",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 문화공간 (공연장) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi164/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi164",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 문화공간(영화관) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi165/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi165",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 문화공간 (전시시설) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi166/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi166",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 문화공간 (지역문화복지시설) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi167/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi167",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 공동주택 건립 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10054/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10054",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 공유재산 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi192/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi192",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 사설학원 및 독서실 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi195/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi195",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 유치원 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi200/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi200",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 초등학교 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi201/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi201",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 중학교 (국·공립) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi202/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi202",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 중학교 (사립) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi203/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi203",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 대학교 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi210/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi210",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 대학원 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi211/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi211",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 직업훈련 (고용부문) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi214/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi214",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 건축연도별 주택현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi231/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi231",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 지하철 운행현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi247/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi247",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 시내버스 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi248/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi248",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 1일 교통수단별 통행현황 (분담률) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi250/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi250",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 버스전용차로 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi252/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi252",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 주차장 (구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi253/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi253",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 주차장 (동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10152/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10152",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 자동차등록 (월별/구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi255/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi255",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 도로 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi258/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi258",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 지하철 혼잡도 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi262/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi262",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 지하철 승강편의 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi263/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi263",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 승용차통행속도 (시간대별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi265/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi265",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 도심지점별 교통량 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/TB_OCTA_267/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"TB_OCTA_267",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 시계지점별 교통량 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi268/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi268",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 지하철수송 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi273/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi273",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 대중교통 요금 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi274/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi274",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 투표현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi285/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi285",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 구 공무원 (정원) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi297/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi297",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 소방서 1개소당 담당인구 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi300/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi300",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 자연재난 발생현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi307/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi307",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 원인별 화재발생 (구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10167/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10167",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 5대 범죄 발생현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi316/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi316",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 범죄 발생현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi581/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi581",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 교통사고 현황(구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10057/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10057",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 교통사고 현황 (사고유형별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi322/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi322",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 보행자 사고현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi324/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi324",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 환경오염물질 배출시설 (대기) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi338/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi338",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 환경오염물질 배출시설 (수질) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi339/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi339",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 수질현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi342/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi342",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 상수도 급수 사용량 및 사용료 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi348/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi348",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 공원 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10052/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10052",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 공원 (1인당 공원면적) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi360/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi360",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 가로수 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi367/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi367",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 녹지현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi368/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi368",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 건물주변 녹지 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10232/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10232",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 아파트 및 학교녹지 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10233/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10233",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 전력 사용량 (용도별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi378/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi378",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 도서관 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi387/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi387",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 공공도서관 (구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi388/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi388",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 공공체육시설 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi390/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi390",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 출판·인쇄 및 기록매체 복제업 (동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10340/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10340",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 문화공연 및 전시회 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi397/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi397",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 관광호텔 등록 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10202/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10202",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(전국기준)국적별 외국인 방문객 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi409/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi409",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(전국기준)입국교통수단별 외국인 방문객 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10207/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10207",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 기상개황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi414/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi414",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 인구추이 (주민등록인구) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi418/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi418",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 주민등록인구 (구별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi419/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi419",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 주민등록인구 (동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10043/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10043",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 주민등록인구 (내국인 각세별/동별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi421/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi421",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 혼인상태별 인구(15세 이상) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi422/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi422",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 혼인이혼(월별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi428/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi428",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 외국인 국적별 혼인 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi585/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi585",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 경찰공무원 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi527/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi527",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 어린이 교통사고 현황 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi570/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi570",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 교통안전지수 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi572/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi572",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 합계출산율 및 모(母)의 연령별 출산율 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10104/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10104",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 혼인율 (연령별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10106/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10106",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 이혼율 (연령별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10097/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10097",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 혼인건수(연령별) 통계",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openapi.seoul.go.kr:8088/{{api_key}}/json/octastatapi10105/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openapi",
+						"seoul",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"octastatapi10105",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 위생관리 용역업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoPublicHygieneBizHealthControl/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoPublicHygieneBizHealthControl",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 위생처리업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoPublicHygieneBizTreatment/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoPublicHygieneBizTreatment",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 세척제 제조업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoPublicHygieneBizCleaningProducts/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoPublicHygieneBizCleaningProducts",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 기타 위생용품 제조업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoPublicHygieneBizEtcProducts/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoPublicHygieneBizEtcProducts",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 공중이용시설 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoPublicHygieneBizPublicUseFacility/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoPublicHygieneBizPublicUseFacility",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 청소년 유해업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoJuvenileHarmfulBiz/1/1000/201210",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoJuvenileHarmfulBiz",
+						"1",
+						"1000",
+						"201210"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 식품위생업소 소재지별 운영 현황 (차트)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoFoodHygieneBizLocManageDong/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoFoodHygieneBizLocManageDong",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 공중위생업소 소재지별 운영 현황 (차트)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoPublicHygieneBizLocManageDong/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoPublicHygieneBizLocManageDong",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 환경 지도점검 내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoListEnvGuideCheck/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoListEnvGuideCheck",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 식품등 수입판매업 식품위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoFoodHygieneBizSaleImport/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoFoodHygieneBizSaleImport",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 모범음식점 지정 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoModelRestaurantDesignate/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoModelRestaurantDesignate",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 식품위생업소 행정처분내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoAdminMesureFood/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoAdminMesureFood",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 공중위생업소 행정처분내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoAdminMesurePublic/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoAdminMesurePublic",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 식품위생업소 소재지별 운영 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoFoodHygieneBizLocManage/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoFoodHygieneBizLocManage",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 공중위생업소 소재지별 운영 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoPublicHygieneBizLocManage/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoPublicHygieneBizLocManage",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 식품위생업소 식품수거검사 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoFoodCollectCheckHygieneBiz/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoFoodCollectCheckHygieneBiz",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 전체 식품수거검사 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoFoodCollectCheck/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoFoodCollectCheck",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 위생업소 전체 행정처분내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoAdminMesure/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoAdminMesure",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 모범음식점 취소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoModelRestaurantCancel/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoModelRestaurantCancel",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 모범음식점 신청 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoModelRestaurantApply/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoModelRestaurantApply",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 노동조합 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoListLaborUnion/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoListLaborUnion",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 종로구 대부업 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.jongno.go.kr:8088/{{api_key}}/json/JongnoListLoanCompany/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"jongno",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"JongnoListLoanCompany",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 위생관리 용역업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinPublicHygieneBizHealthControl/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinPublicHygieneBizHealthControl",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 위생처리업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinPublicHygieneBizTreatment/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinPublicHygieneBizTreatment",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 세척제 제조업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinPublicHygieneBizCleaningProducts/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinPublicHygieneBizCleaningProducts",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 기타 위생용품 제조업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinPublicHygieneBizEtcProducts/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinPublicHygieneBizEtcProducts",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 공중이용시설 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinPublicHygieneBizPublicUseFacility/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinPublicHygieneBizPublicUseFacility",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 청소년 유해업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinJuvenileHarmfulBiz/1/1000/201210",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinJuvenileHarmfulBiz",
+						"1",
+						"1000",
+						"201210"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 식품위생업소 소재지별 운영 현황 (차트)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinFoodHygieneBizLocManageDong/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinFoodHygieneBizLocManageDong",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 공중위생업소 소재지별 운영 현황 (차트)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinPublicHygieneBizLocManageDong/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinPublicHygieneBizLocManageDong",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 환경 지도점검 내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinListEnvGuideCheck/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinListEnvGuideCheck",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 식품등 수입판매업 식품위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinFoodHygieneBizSaleImport/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinFoodHygieneBizSaleImport",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 모범음식점 지정 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinModelRestaurantDesignate/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinModelRestaurantDesignate",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 식품위생업소 행정처분내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinAdminMesureFood/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinAdminMesureFood",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 공중위생업소 행정처분내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinAdminMesurePublic/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinAdminMesurePublic",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 식품위생업소 소재지별 운영 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinFoodHygieneBizLocManage/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinFoodHygieneBizLocManage",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 공중위생업소 소재지별 운영 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinPublicHygieneBizLocManage/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinPublicHygieneBizLocManage",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 식품위생업소 식품수거검사 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinFoodCollectCheckHygieneBiz/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinFoodCollectCheckHygieneBiz",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 전체 식품수거검사 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinFoodCollectCheck/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinFoodCollectCheck",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 위생업소 전체 행정처분내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinAdminMesure/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinAdminMesure",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 모범음식점 취소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinModelRestaurantCancel/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinModelRestaurantCancel",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 모범음식점 신청 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinModelRestaurantApply/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinModelRestaurantApply",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 노동조합 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinListLaborUnion/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinListLaborUnion",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 광진구 대부업 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gwangjin.go.kr:8088/{{api_key}}/json/GwangjinListLoanCompany/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gwangjin",
+						"go",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GwangjinListLoanCompany",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 위생관리 용역업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoPublicHygieneBizHealthControl/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoPublicHygieneBizHealthControl",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 위생처리업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoPublicHygieneBizTreatment/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoPublicHygieneBizTreatment",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 세척제 제조업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoPublicHygieneBizCleaningProducts/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoPublicHygieneBizCleaningProducts",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 기타 위생용품 제조업 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoPublicHygieneBizEtcProducts/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoPublicHygieneBizEtcProducts",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 공중이용시설 공중위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoPublicHygieneBizPublicUseFacility/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoPublicHygieneBizPublicUseFacility",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 청소년 유해업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoJuvenileHarmfulBiz/1/1000/201210",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoJuvenileHarmfulBiz",
+						"1",
+						"1000",
+						"201210"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 식품위생업소 소재지별 운영 현황 (차트)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoFoodHygieneBizLocManageDong/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoFoodHygieneBizLocManageDong",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 공중위생업소 소재지별 운영 현황 (차트)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoPublicHygieneBizLocManageDong/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoPublicHygieneBizLocManageDong",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 환경 지도점검 내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoListEnvGuideCheck/1/1000",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoListEnvGuideCheck",
+						"1",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 식품등 수입판매업 식품위생업소 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoFoodHygieneBizSaleImport/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoFoodHygieneBizSaleImport",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 모범음식점 지정 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoModelRestaurantDesignate/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoModelRestaurantDesignate",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 식품위생업소 행정처분내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoAdminMesureFood/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoAdminMesureFood",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 공중위생업소 행정처분내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoAdminMesurePublic/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoAdminMesurePublic",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 식품위생업소 소재지별 운영 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoFoodHygieneBizLocManage/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoFoodHygieneBizLocManage",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 공중위생업소 소재지별 운영 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoPublicHygieneBizLocManage/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoPublicHygieneBizLocManage",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 식품위생업소 식품수거검사 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoFoodCollectCheckHygieneBiz/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoFoodCollectCheckHygieneBiz",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 전체 식품수거검사 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoFoodCollectCheck/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoFoodCollectCheck",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "서울시 강서구 위생업소 전체 행정처분내역 현황",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openAPI.gangseo.seoul.kr:8088/{{api_key}}/json/GangseoAdminMesure/1/1000/",
+					"protocol": "http",
+					"host": [
+						"openAPI",
+						"gangseo",
+						"seoul",
+						"kr"
+					],
+					"port": "8088",
+					"path": [
+						"{{api_key}}",
+						"json",
+						"GangseoAdminMesure",
+						"1",
+						"1000",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "apiBaseUrl",
+			"key": "apiBaseUrl",
+			"value": "http://openAPI.gangseo.seoul.kr:8088",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
